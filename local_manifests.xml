@@ -5,7 +5,7 @@
            revision="a13/master" />
   <remote  name="phantom"
            fetch="https://github.com/PhantomEnigma"
-           revision="a13/master" />
+           revision="a13/master-superior" />
   <!--
   <remote  name="github"
            fetch="https://github.com" />
