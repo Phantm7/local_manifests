@@ -6,8 +6,10 @@
   <remote  name="phantom"
            fetch="https://github.com/PhantomEnigma"
            revision="a13/master-superior" />
+  <!--
   <remote  name="github"
            fetch="https://github.com" />
+  -->
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
@@ -52,7 +54,8 @@
 <!-- try to fix bootloop -->
   <remove-project path="vendor/qcom/opensource/healthd-ext" />
  <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,waipio-vendor" revision="lineage-20.0" remote="github"/>
-<!--  fix libcxx -->
+<!--  fix libcxx 
   <remove-project name="platform/external/libcxx" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="github" revision="lineage-20.0"/>
+  -->
   </manifest>
