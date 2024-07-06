@@ -94,7 +94,5 @@
   
 <!-- v4x -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="phantom" revision="v4a" />
-
-  <remove-project name="LineageOS/android_packages_apps_Dialer" />
   
 </manifest>
