@@ -23,7 +23,7 @@
     <linkfile src="_Android.mk" dest="hardware/mithorium/Android.mk" />
     <linkfile src="mithorium_qcom_hals.mk" dest="hardware/mithorium/mithorium_qcom_hals.mk" />
 
-    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/Android.bp" />
+    <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/LA.UM.9.6.4.r2-03300-89xx.QSSI13r2.0/Android.bp" />
     <linkfile src="guard-generic.bp" dest="hardware/mithorium/audio/lineage-21.0-caf-msm8953/Android.bp" />
     <linkfile src="guard-generic.bp" dest="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/Android.bp" />
 
