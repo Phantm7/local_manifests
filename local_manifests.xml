@@ -107,5 +107,9 @@
   
   <!-- v4x -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="phantom" revision="v4a" />
+  
+  <!-- GMS -->
+  <remove-project name="DerpFest/13_vendor_gms" />
+  <project path="vendor/gms" name="PhantomEnigma/13_vendor_gms" remote="gitlab" revision="13" />
 
 </manifest>
